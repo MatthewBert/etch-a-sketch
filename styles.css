@@ -5,12 +5,17 @@ body{
     margin: 0;
 }
 
+h1{
+    color: gold;
+}
+
 #screen{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 50px solid red;
+    border: 50px solid #b90000;
+    background-color: #b90000;
     border-radius: 20px;
 }
 
@@ -26,4 +31,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
+}
+
+#button-container{
+padding-bottom: 10px;
 }
